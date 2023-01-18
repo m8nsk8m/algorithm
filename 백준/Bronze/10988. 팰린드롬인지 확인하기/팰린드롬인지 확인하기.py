@@ -1,12 +1,10 @@
-
-word = list(input())
-
+word = input()
 
 
-if list(reversed(word)) == word:
+
+if word[::-1] == word:
     print(1)
 else:
     print(0)
-
 
 
